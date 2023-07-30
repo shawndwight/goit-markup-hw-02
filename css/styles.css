@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Raleway:wght@400;500;700;800;900&display=swap');
+
+:root{
+--primary-white-color: #ffffff; 
+--primary-text-color:#757575;
+--accent-color:#2196f3;
+--background-black:#2E2F42;
+--button-primary-hover: #188ce8;
+--primary-black-color: #212121;
+--button-filter: #f5f4fa;
+}
+
+body{
+    font-family: "Roboto" , sans-serif;
+    font-size: 14px;
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+    letter-spacing: 0.03em;
+}
+
+.list {
+    list-style-type: none;
+
+}
+.logo-link{
+    text-decoration: none;
+    font-family: "Raleway", sans-serif; 
+    font-size: 26px;
+    line-height: 1.2;
+}
+.logo{ 
+    color: #4D5AE5;
+    font-weight: 800;
+}
+.studio{
+    color: #2E2F42;
+    font-weight: 700;
+}
+.nav-menu .page:hover,
+.nav-menu .page:focus,
+.nav-menu .current,
+.contacts-menu .item:hover,
+.contacts-menu .item:focus
+{
+color:var(--accent-color);
+}
+.bg-hero{
+    background: var(--background-black);
+}
+.hero-title{
+    color: var(--primary-white-color);
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+.button{
+    cursor: pointer;
+    border-color: transparent;
+    font-family: inherit;
+    letter-spacing: 0.03em;
+}
+.button.primary{
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+}  
+.button.primary:hover,
+.button.primary:focus{
+background-color: var(--button-primary-hover);
+}
+.benefits .title{
+    color: var(--primary-black-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.benefits .description{
+    line-height: 1.71;
+}
+.section-title{
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.17;
+}
+.team.name,
+.team.position{
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.19;
+}
+.team.name{
+    color: var(--primary-black-color);
+    font-weight: 500;
+}
+.bg-footer {
+    background: var(--background-black);
+}
+.studio2{
+    color: var(--primary-white-color);
+    font-weight: 700;
+}
+.button.filter{
+    background-color: var(--button-filter);
+    color: var(--primary-black-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+}
+
+
+.button.filter:hover,
+.button.filter:focus,
+.button.filter.current{
+    background-color: var(--button-primary-hover);
+    color: var(--button-filter);
+}
+.project{
+    text-decoration: none;
+}
+.project .name{
+    color: var(--primary-black-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project .type{
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+        
+}
