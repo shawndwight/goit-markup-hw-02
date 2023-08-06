@@ -1,141 +1,110 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Raleway:wght@400;500;700;800;900&display=swap');
 
 :root{
---primary-white-color: #ffffff; 
---primary-text-color:#757575;
---accent-color:#2196f3;
---background-black:#2E2F42;
---button-primary-hover: #188ce8;
---primary-black-color: #212121;
---button-filter: #f5f4fa;
+--iris: #4D5AE5;
+--ocean: #404BBF;
+--navy-blue: #2E2F42; 
+--green: #31D0AA;
+--slate: #434455;
+--light-slate: #8E8F99;
+--cornflower: #E7E9FC;
+--cloud:#F4F4FD ;
+--naval-blue-modal: #2E2F42;
+--grey: #2E2F42;
+--white: #FFFFFF;
+--dairy: #FCFCFC;
 }
 
-body{
-    font-family: "Roboto" , sans-serif;
-    font-size: 14px;
-    background-color: var(--primary-white-color);
-    color: var(--primary-text-color);
-    letter-spacing: 0.03em;
+body {
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.32px; 
 }
 
 .list {
-    list-style-type: none;
-
-}
-.logo-link{
     text-decoration: none;
-    font-family: "Raleway", sans-serif; 
-    font-size: 26px;
-    line-height: 1.2;
+    padding: 0%;
 }
-.logo{ 
-    color: #4D5AE5;
+
+.logo-link {
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
     font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    color:inherit
+}
+.logo{
+    color:var(--iris);
 }
 .studio{
-    color: #2E2F42;
-    font-weight: 700;
+    color: var(--navyblue, #2E2F42);
+    
 }
-.nav-menu .page:hover,
-.nav-menu .page:focus,
-.nav-menu .current,
-.contacts-menu .item:hover,
-.contacts-menu .item:focus
-{
-color:var(--accent-color);
+.page {
+    text-decoration: none;
+    color:var(--navy-blue);   
 }
-.bg-hero{
-    background: var(--background-black);
+
+.item {
+    text-decoration: none;
+    color: var(--slate);
 }
-.hero-title{
-    color: var(--primary-white-color);
-    font-size: 44px;
-    font-weight: 900;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
+.bg-hero,
+.bg-footer{
+    background-color: var(--navy-blue);
+    color: var(--white, #FFF);
 }
-.button{
+
+.hero {
+    text-align: center;  
+}
+.button {
     cursor: pointer;
-    border-color: transparent;
+    border-radius: 4px;
+    background: var(--iris, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.section {
+    color: var(--navy-blue)
+}
+.description{
+    color: var(--slate, #434455);
+}
+.btn-filter{
+    color: var(--iris, #4D5AE5);
+    text-align: center;
     font-family: inherit;
-    letter-spacing: 0.03em;
-}
-.button.primary{
-    background-color: var(--accent-color);
-    color: var(--primary-white-color);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
-}  
-.button.primary:hover,
-.button.primary:focus{
-background-color: var(--button-primary-hover);
-}
-.benefits .title{
-    color: var(--primary-black-color);
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-}
-.benefits .description{
-    line-height: 1.71;
-}
-.section-title{
-    color: #2E2F42;
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.17;
-}
-.team.name,
-.team.position{
-    font-size: 16px;
-    text-align: center;
-    line-height: 1.19;
-}
-.team.name{
-    color: var(--primary-black-color);
+    font-size: inherit;
     font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
 }
-.bg-footer {
-    background: var(--background-black);
-}
-.studio2{
-    color: var(--primary-white-color);
-    font-weight: 700;
-}
-.button.filter{
-    background-color: var(--button-filter);
-    color: var(--primary-black-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-}
-
-
-.button.filter:hover,
-.button.filter:focus,
-.button.filter.current{
-    background-color: var(--button-primary-hover);
-    color: var(--button-filter);
+.btn-filter.current,
+.btn-filter:hover,
+.btn-filter:focus
+{
+    color:var(--white);
+    background-color: var(--ocean);
 }
 .project{
     text-decoration: none;
-}
-.project .name{
-    color: var(--primary-black-color);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-}
+    color: inherit;
 
-.project .type{
-    color: var(--primary-text-color);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.87;
-        
+}
+.type {
+    color: var(--slate);
+}
+.page.current,
+.page:hover,
+.page:focus,
+.item:focus,
+.item:hover{
+    color:var(--ocean);
 }
