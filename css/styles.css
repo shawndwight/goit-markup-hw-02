@@ -44,7 +44,7 @@ letter-spacing: 0.32px;
 .logo{
     color:var(--iris);
 }
-.studio{
+.studio-title{
     color: var(--navyblue, #2E2F42);
     
 }
@@ -144,9 +144,9 @@ letter-spacing: 0.32px;
 .btn-filter:focus
 {
     color:var(--white);
-    border-color: var(--ocean;
+    border-color: var(--ocean);
     background-color: var(--ocean);
-    box-shadow: ;0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
         0px 2px 1px 0px rgba(0, 0, 0, 0.08),
         0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
