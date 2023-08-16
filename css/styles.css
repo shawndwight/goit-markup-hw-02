@@ -14,6 +14,10 @@
 --white: #FFFFFF;
 --dairy: #FCFCFC;
 }
+.page-header,
+.list {display: flex;
+    justify-content: center;
+}
 
 body {
 font-family: 'Roboto', sans-serif;
