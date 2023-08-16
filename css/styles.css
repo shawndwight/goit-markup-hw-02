@@ -15,7 +15,8 @@
 --dairy: #FCFCFC;
 }
 .page-header,
-.list {display: flex;
+.list 
+{display: flex;
     justify-content: center;
 }
 
